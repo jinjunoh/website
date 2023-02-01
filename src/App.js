@@ -218,7 +218,7 @@ function App() {
               <div className="Progress">
               <h3 className="heading">Progress Bar</h3>
                   <Progressbar bgcolor="#99ccff" progress='80'  height={30} skill ='Java' />
-                  <Progressbar bgcolor="#99ccff" progress='60'  height={30} skill ='Python' />
+                  <Progressbar bgcolor="#99ccff" progress='60'  height={30} skill ='C' />
                   <Progressbar bgcolor="#99ccff" progress='85'  height={30} skill ='Assembly' />
                   <Progressbar bgcolor="#99ccff" progress='50'  height={30} skill ='Java Script'/>
                   <Progressbar bgcolor="#99ccff" progress='55'  height={30} skill ='CSS'/>
