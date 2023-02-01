@@ -1,4 +1,5 @@
 import Vetri from "./images/jinjun2.PNG";
+import { Spline } from "@splinetool/react-spline";
 import './App.css'; 
 import Progressbar from './Progress_bar';
 import {
@@ -138,12 +139,7 @@ function App() {
         
         
         <div className="relative" id="home">
-          {/* <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" />
-          <div className="absolute bottom-10 w-full flex justify-center items-center">
-            <div className="shadow-md p-4 flex items-center justify-center bg-zinc-900 rounded-3xl ">
-              <p className="text-white">Press and drag to orbit</p>
-            </div>
-          </div> */}
+         
         </div> 
         
         <main className="w-[90%] mt-4=">
@@ -158,7 +154,7 @@ function App() {
               </div>
               <div className = 'md:mt-10'>
                 <h1  className='font-bold text-white text-4xl'>
-                    Hi, I'm JJ!
+                    Hi, I'm JJ! 
                 </h1>
                 <p className='font-bold text-white text-1xl md:w-64'>
                     I'm a ...
@@ -171,7 +167,7 @@ function App() {
             <div class="meter" > </div>
           </section>
           <section id="about">
-            <div class="invinsible" ></div>
+            <div class="invinsible1" ></div>
           </section>
           <section>
             <div className="my-12 pb-12 md:pt-16 md:pb-48">
@@ -210,6 +206,7 @@ function App() {
                       possible. I am excited to see where my career takes me and am
                       always open to new opportunities. 
                     </p>
+                    {/* <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" /> */}
                   </div>
                   <div className="text-center md:w-1/2 md:text-left">
                     <h1 className="text-2xl font-bold mb-6">My Skills</h1>
