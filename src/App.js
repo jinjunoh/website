@@ -1,4 +1,3 @@
-import { Spline } from "@splinetool/react-spline";
 import Vetri from "./images/jinjun2.PNG";
 import './App.css'; 
 import Progressbar from './Progress_bar';
@@ -14,6 +13,20 @@ import { AnimatePresence, motion } from "framer-motion";
 
 function App() {
   const [isActive, setIsActive] = useState(false);
+  const skills = [
+    { skill: "HTML" },
+    { skill: "CSS" },
+    { skill: "JavaScript" },
+    { skill: "TypeScript" },
+    { skill: "Python" },
+    { skill: "React" },
+    { skill: "Next.js" },
+    { skill: "Tailwind CSS" },
+    { skill: "Git" },
+    { skill: "GitHub" },
+    { skill: "Jupyter Notebooks" },
+  ]
+  
   return (
     <AnimatePresence initial={false}>
       <div className="flex w-screen min-h-screen flex-col items-center justify-center relative bg-primary pb-20">
@@ -35,10 +48,10 @@ function App() {
                 About
               </a>
               <a
-                href="#skills"
+                href="#experience"
                 className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
               >
-                Skills
+                Experience
               </a>
               <a
                 href="#service"
@@ -91,11 +104,11 @@ function App() {
                   About
                 </a>
                 <a
-                  href="#skills"
+                  href="#experience"
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
                   onClick={() => setIsActive(false)}
                 >
-                  Skills
+                  Experience
                 </a>
                 <a
                   href="#service"
@@ -132,13 +145,9 @@ function App() {
             </div>
           </div> */}
         </div> 
-         
+        
         <main className="w-[85%] mt-4=">
-          <section
-            className="w-full my-24"
-          >
-            {/* photo */}
-
+          <section className="w-full my-24">
             <div className="w-full h-420 flex items-center justify-center">
               <div className="w-275 h-340 relative bg-blue-200 rounded-md">
                 <img
@@ -148,33 +157,75 @@ function App() {
                 />
               </div>
             </div>
-
-            <section>
-            <div class="invinsible" ></div>
-            </section>
-
-            <div className="w-full h-550 flex flex-col items-center justify-center ">
-              <p className="text-lg text-textBase text-center">
-                My name is JJ Oh: class of 2026 enrolled at UT Austin majoring in Electrical and Computer Engineering.
-              </p>
-
-              {/* <button class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
-                <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                  Download
-                </span>
-              </button> */}
-            </div>
           </section>
-          
+          <section >
+            <div class="meter" > </div>
+          </section>
           <section id="about">
+            <div class="invinsible" ></div>
+          </section>
+          <section>
+            <div className="my-12 pb-12 md:pt-16 md:pb-48">
+                <h1 className="text-center font-bold text-4xl text-white">
+                  About Me
+                  <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+                </h1>
+
+                <div className="text-white flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
+                  <div className="md:w-1/2 ">
+                    <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
+                      Get to know me!
+                    </h1>
+                    <p>
+                      Hi, my name is JJ and I am a{" "}
+                      <span className="font-bold">{"highly ambitious"}</span>,
+                      <span className="font-bold">{" self-motivated"}</span>, and
+                      <span className="font-bold">{" driven"}</span> student studying Electrical and Computer Engineering at University of Texas at Austin.
+                    </p>
+                    
+                    <br />
+                    <p>
+                      I have a wide range of hobbies and passions that keep me busy.
+                      From reading, playing sports, traveling, to bouldering,
+                      I am always seeking new experiences and love to keep myself
+                      engaged and learning new things.
+                    </p>
+                    <br />
+                    <p>
+                      I believe that you should{" "}
+                      <span className="font-bold text-teal-500">
+                        never stop growing
+                      </span>{" "}
+                      and that&#39;s what I strive to do, I have a passion for
+                      technology and a desire to always push the limits of what is
+                      possible. I am excited to see where my career takes me and am
+                      always open to new opportunities. 
+                    </p>
+                  </div>
+                  <div className="text-center md:w-1/2 md:text-left">
+                    <h1 className="text-2xl font-bold mb-6">My Skills</h1>
+                    <div className=" justify-center z-10 md:justify-start">
+                          <Progressbar bgcolor="#99ccff" progress='80'  height={30} skill ='Java' />
+                          <Progressbar bgcolor="#99ccff" progress='60'  height={30} skill ='C/C++' />
+                          <Progressbar bgcolor="#99ccff" progress='85'  height={30} skill ='Assembly' />
+                          <Progressbar bgcolor="#99ccff" progress='50'  height={30} skill ='Java Script'/>
+                          <Progressbar bgcolor="#99ccff" progress='55'  height={30} skill ='CSS'/>
+                          <Progressbar bgcolor="#99ccff" progress='70'  height={30} skill ='HTML'/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </section>
+
+          <section id="experience">
             <div class="invinsible" ></div>
           </section>
 
           <section >
             <div class="meter" > </div>
           </section>
-
-          <section className="w-full flex items-center justify-center" >
+          
+          <section  className="w-full flex items-center justify-center" >
             <VerticalTimeline>
               {Experience &&
                 Experience.map((n) => (
@@ -205,29 +256,13 @@ function App() {
             </VerticalTimeline>
           </section>
           
-          
 
-          <section>
+          <section id = 'service'>
                 <div class="meter"></div>
+                <div class="invinsible"  ></div>
+                <div class="invinsible"  ></div>
           </section >
-
-          <section id="skills">
-            <div class="invinsible" ></div>
-          </section>
-
-              <div className="Progress">
-              <h3 className="heading">Progress Bar</h3>
-                  <Progressbar bgcolor="#99ccff" progress='80'  height={30} skill ='Java' />
-                  <Progressbar bgcolor="#99ccff" progress='60'  height={30} skill ='C' />
-                  <Progressbar bgcolor="#99ccff" progress='85'  height={30} skill ='Assembly' />
-                  <Progressbar bgcolor="#99ccff" progress='50'  height={30} skill ='Java Script'/>
-                  <Progressbar bgcolor="#99ccff" progress='55'  height={30} skill ='CSS'/>
-                  <Progressbar bgcolor="#99ccff" progress='70'  height={30} skill ='HTML'/>
-              </div>
           
-          <section id="service">
-            <div class="invinsible"  ></div>
-          </section>
 
           <section
             class='container'
@@ -238,23 +273,22 @@ function App() {
                   className="border border-white rounded-md p-1 width-full flex items-center justify-between"
                 >
                   <div class='card'>
-              
-                  <div className="flex flex-1 items-center justify-between">
-                    <p  className="text-lg text-gray-300">
-                        <p className="text-lg text-white text-textBase font-medium uppercase">
-                        {n.name.length > 25 ? `${n.name.slice(0, 25)}...` : n.name}
-                        </p>
-                      <span className="text-md text-gray-250">
-                        {n.duration}
-                      </span>
-                      <span className="block text-lg text-gray-100">
-                        {n.position}
-                      </span>
-                      <span className="block text-lg text-gray-250">
-                        {n.techs}
-                      </span>
-                    </p>
-                  </div>
+                    <div className="flex flex-1 items-center justify-between">
+                      <p  className="text-lg text-gray-300">
+                          <p className="text-lg text-white text-textBase font-medium uppercase">
+                          {n.name.length > 25 ? `${n.name.slice(0, 25)}...` : n.name}
+                          </p>
+                        <span className="text-md text-gray-250">
+                          {n.duration}
+                        </span>
+                        <span className="block text-lg text-gray-100">
+                          {n.position}
+                        </span>
+                        <span className="block text-lg text-gray-250">
+                          {n.techs}
+                        </span>
+                      </p>
+                    </div>
                   </div>
                   {/* <img
                     src={n.imageSrc}

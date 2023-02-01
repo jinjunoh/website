@@ -7,11 +7,10 @@ const Progress_bar = ({bgcolor,progress,height,skill}) => {
 		width: '100%',
 		backgroundColor: 'black',
 		borderRadius: 40,
-		margin: 50,
+		margin: 35,
 	}
 	
     const Skill = {
-        hpadding: 10,
         textAlign: 'middle',
 		color: 'white',
 		font: 'medium',
@@ -21,7 +20,7 @@ const Progress_bar = ({bgcolor,progress,height,skill}) => {
 		height: '100%',
 		width: `${progress}%`,
 		backgroundColor: bgcolor,
-	borderRadius:40,
+		borderRadius:40,
 		textAlign: 'right'
 	}
 	
