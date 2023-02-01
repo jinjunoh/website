@@ -146,17 +146,26 @@ function App() {
           </div> */}
         </div> 
         
-        <main className="w-[85%] mt-4=">
+        <main className="w-[90%] mt-4=">
           <section className="w-full my-24">
-            <div className="w-full h-420 flex items-center justify-center">
+            <div className="flex flex-col text-center w-full h-420 items-center justify-center md:flex-row md:space-x-12">
               <div className="w-275 h-340 relative bg-blue-200 rounded-md">
                 <img
                   src={Vetri}
                   alt=""
-                  className="w-full h-full absolute -right-4 top-4 object-cover rounded-lg drop-shadow-2xl"
+                  className="w-full h-full absolute -right-4 top-0 object-cover rounded-lg drop-shadow-2xl"
                 />
               </div>
+              <div className = 'md:mt-10'>
+                <h1  className='font-bold text-white text-4xl'>
+                    Hi, I'm JJ!
+                </h1>
+                <p className='font-bold text-white text-1xl md:w-64'>
+                    I'm a ...
+                </p>
+              </div>
             </div>
+            
           </section>
           <section >
             <div class="meter" > </div>
