@@ -14,10 +14,10 @@ export const Experience = [
     id: 1,
     date: "June 2021",
     iconsSrc: <IoCodeWorking />,
-    title: "Lenovo Experience Design Intern",
+    title: "Lenovo Project Intern",
     location: "Online",
     description:
-      "Conducted market research & collected customers’ design satisfaction data for All-in-One Computer"
+      "As an intern at the Lenovo Experience Design team, I Conducted market research & collected customers’ design satisfaction data for All-in-One Computer, utilized C++ to develop a custom data-cleaning algorithm that efficiently removed duplicate entries, corrected formatting errors, and identified outliers, and presented the research findings to the relevant stakeholders within Lenovo, including members of the design team and upper management.",
       
   },
   {
@@ -27,7 +27,7 @@ export const Experience = [
     title: "D.Lab Coding Academy T.A.",
     location: "Songpa-gu, Seoul, South Korea",
     description:
-      "Creative Direction, User Experience, Visual Design, Project Management, Team Leading",
+      "As a Teaching Assistant, I cooperated with professors and T.A.s to design and implement a computer science curriculum in Java with object-oriented concepts, data structures, algorithm development, handling libraries, and debugging techniques.",
       
   },
   {
@@ -48,15 +48,23 @@ export const Experience = [
     description:
       "Completed Essentials of Finance summer course in the Wharton Global Youth Program",
   },
-  
   {
     id: 5,
-    date: "August 2022",
+    date: "June 2022 - Present",
     iconsSrc: <IoCodeWorking />,
-    title: "Student",
+    title: "Personal Website",
     location: "Austin, Texas",
     description:
-      "Enrolled as student in Cockrell School of Engineering at University of Texas at Austin",
+      "Designed, developed, and deployed a personal website using React.js, JavaScript, HTML, and CSS to promote my personal brand and build a network of like-minded individuals in my field. Utilized additional languages such as Node.js and babel to create a dynamic and responsive website.",
+  },
+  {
+    id: 6,
+    date: "August 2022 - Present",
+    iconsSrc: <IoCodeWorking />,
+    title: "University of Texas at Austin",
+    location: "Austin, Texas",
+    description:
+      "Enrolled as student pursuing BS Electrical and Computer Engineering at University of Texas at Austin",
   },
 ];
 
