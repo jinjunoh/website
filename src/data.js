@@ -66,6 +66,15 @@ export const Experience = [
     description:
       "Enrolled as student pursuing BS Electrical and Computer Engineering at University of Texas at Austin",
   },
+  {
+    id: 7,
+    date: "November 2022 - February 2023",
+    iconsSrc: <IoCodeWorking />,
+    title: "Club Canvas Application",
+    location: "Austin, Texas",
+    description:
+      "Experienced IOS application development, utilizing version control to collaborate with cross-functional teams, utilizing Swift and Firebase to create user-friendly interfaces integrated with back-end systems, resulting in a successful deployment benefiting student organizations at UT Austin. Successfully initiated the conversion of the application to a website which attracted 58% higher traffic and increase accessibility",
+  },
 ];
 
 export const Projects = [
@@ -125,20 +134,6 @@ export const SocialLinks = [
     name: "GitHub",
     link: "https://github.com/jinjunoh",
   },
-  // {
-  //   id: 1,
-  //   iconSrc: <IoLogoYoutube className="text-red-500 text-3xl cursor-pointer" />,
-  //   name: "YouTube",
-  //   link: "#",
-  // },
-  // {
-  //   id: 1,
-  //   iconSrc: (
-  //     <IoLogoTwitter className="text-blue-500 text-3xl cursor-pointer" />
-  //   ),
-  //   name: "Twitter",
-  //   link: "#",
-  // },
   {
     id: 2,
     iconSrc: (
