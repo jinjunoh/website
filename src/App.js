@@ -156,8 +156,10 @@ function App() {
                 <h1  className='font-bold text-white text-4xl'>
                     Hi, I'm JJ! 
                 </h1>
-                <p className='font-bold text-white text-1xl md:w-64'>
-                    I'm a ...
+                <p className='font-bold text-white text-1xl md:w-64 '>
+                    I'm a <span className = 'bg-gradient-to-r from-gray-500 to-white-500 bg-clip-text	text-transparent'>
+                    .....
+                    </span>
                 </p>
               </div>
             </div>
@@ -171,7 +173,7 @@ function App() {
           </section>
           <section>
             <div className="my-12 pb-12 md:pt-16 md:pb-48">
-                <h1 className="text-center font-bold text-4xl text-white">
+                <h1 className="text-center font-bold text-4xl text-white ">
                   About Me
                   <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
                 </h1>
@@ -183,9 +185,9 @@ function App() {
                     </h1>
                     <p>
                       Hi, my name is JJ and I am a{" "}
-                      <span className="font-bold">{"highly ambitious"}</span>,
-                      <span className="font-bold">{" self-motivated"}</span>, and
-                      <span className="font-bold">{" driven"}</span> student studying Electrical and Computer Engineering at University of Texas at Austin.
+                      <span className="font-bold  bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text	text-transparent">{"highly ambitious"}</span>,
+                      <span className="font-bold  bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text	text-transparent">{" self-motivated"}</span>, and
+                      <span className="font-bold  bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text	text-transparent">{" driven"}</span> student studying Electrical and Computer Engineering at University of Texas at Austin.
                     </p>
                     
                     <br />
@@ -198,7 +200,7 @@ function App() {
                     <br />
                     <p>
                       I believe that you should{" "}
-                      <span className="font-bold text-teal-500">
+                      <span className="font-bold  bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text	text-transparent">
                         never stop growing
                       </span>{" "}
                       and that&#39;s what I strive to do, I have a passion for
@@ -209,7 +211,7 @@ function App() {
                     {/* <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" /> */}
                   </div>
                   <div className="text-center md:w-1/2 md:text-left">
-                    <h1 className="text-2xl font-bold mb-6">My Skills</h1>
+                    {/* <h1 className="text-2xl font-bold mb-6 ">My Skills</h1> */}
                     <div className=" justify-center z-10 md:justify-start">
                           <Progressbar bgcolor="#99ccff" progress='80'  height={30} skill ='Java' />
                           <Progressbar bgcolor="#99ccff" progress='60'  height={30} skill ='C/C++' />
