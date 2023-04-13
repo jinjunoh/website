@@ -75,6 +75,15 @@ export const Experience = [
     description:
       "Experienced IOS application development, utilizing version control to collaborate with cross-functional teams, utilizing Swift and Firebase to create user-friendly interfaces integrated with back-end systems, resulting in a successful deployment benefiting student organizations at UT Austin. Successfully initiated the conversion of the application to a website which attracted 58% higher traffic and increase accessibility",
   },
+  {
+    id: 8,
+    date: "March 2023 - April 2023",
+    iconsSrc: <IoCodeWorking />,
+    title: "AWS Serverless Web Aookucatuib",
+    location: "Austin, Texas",
+    description:
+      "To gain more experience in Saas, I configured AWS Amplify to host and authenticat users using SRP and JWT with Amazon Cognito. Theb, I built a serverless backend that recives data froma  public backend API built using Lambda and API Gateaway for which I utilized Amazon DynamoDB to provide a persistent layer where data can be stored by the API's Lambda function.",
+  },
 ];
 
 export const Projects = [

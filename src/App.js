@@ -251,13 +251,12 @@ function App() {
                     iconStyle={{ background: "rgb(21, 24, 31)", color: "#888" }}
                     icon={n.iconsSrc}
                   >
-                    <h3 className="vertical-timeline-element-title">
+                    <h3 className="vertical-timeline-element-title text-lg text-white text-textBase font-medium uppercase">
                       {n.title}
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
                       {n.location}
                     </h4>
-                    
                     <p>{n.description}</p>
                   </VerticalTimelineElement>
                 ))}
