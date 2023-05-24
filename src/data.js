@@ -46,7 +46,7 @@ export const Experience = [
     title: "Wharton Global Youth Summer Program",
     location: "Online",
     description:
-      "Completed Essentials of Finance summer course in the Wharton Global Youth Program",
+      "I completed the Essentials of Finance summer course with the Wharton Global Youth Program. In this program, I got the chance to meet with members of the Wharton Social Impact Initiative (WSII) to learn fundamentals of finance with real-world applications and case studies and led a team of 5 as CIO to complete an analysis project on impact investment completing due diligence on plant based seafood startup Good Catch Foods. My team recived 'Best Visuals Award' on the final project.",
   },
   {
     id: 5,
@@ -79,7 +79,7 @@ export const Experience = [
     id: 8,
     date: "March 2023 - April 2023",
     iconsSrc: <IoCodeWorking />,
-    title: "AWS Serverless Web Aookucatuib",
+    title: "AWS Serverless Web Application",
     location: "Austin, Texas",
     description:
       "To gain more experience in Saas, I configured AWS Amplify to host and authenticat users using SRP and JWT with Amazon Cognito. Theb, I built a serverless backend that recives data froma  public backend API built using Lambda and API Gateaway for which I utilized Amazon DynamoDB to provide a persistent layer where data can be stored by the API's Lambda function.",
