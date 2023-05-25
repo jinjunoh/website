@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.54c4bf26.css",
-    "main.js": "/website/static/js/main.5597c7bc.js",
+    "main.css": "/website/static/css/main.43bd0e18.css",
+    "main.js": "/website/static/js/main.cc279e3a.js",
     "static/media/jinjun2.PNG": "/website/static/media/jinjun2.914f1ceecb2020f979ea.PNG",
-    "static/media/thumb-fullstack-socialmedia-app-react-sanity.png": "/website/static/media/thumb-fullstack-socialmedia-app-react-sanity.44fcc444cec6e5975eda.png",
-    "static/media/thumb-google-map-clone-nextjs-feb22.png": "/website/static/media/thumb-google-map-clone-nextjs-feb22.200845be6c176fdf46e1.png",
-    "static/media/thumb-fooddeliveryapp-reactjs-dec.png": "/website/static/media/thumb-fooddeliveryapp-reactjs-dec.fd65990a923e0e9a8e30.png",
+    "static/media/FisforFluency.png": "/website/static/media/FisforFluency.208728fa671bd5e8123a.png",
+    "static/media/books.png": "/website/static/media/books.cd0423e88452e86c2d87.png",
+    "static/media/AustinKoreanSchool.png": "/website/static/media/AustinKoreanSchool.ca37330cc404a06953eb.png",
     "index.html": "/website/index.html",
-    "main.54c4bf26.css.map": "/website/static/css/main.54c4bf26.css.map",
-    "main.5597c7bc.js.map": "/website/static/js/main.5597c7bc.js.map"
+    "main.43bd0e18.css.map": "/website/static/css/main.43bd0e18.css.map",
+    "main.cc279e3a.js.map": "/website/static/js/main.cc279e3a.js.map"
   },
   "entrypoints": [
-    "static/css/main.54c4bf26.css",
-    "static/js/main.5597c7bc.js"
+    "static/css/main.43bd0e18.css",
+    "static/js/main.cc279e3a.js"
   ]
 }
