@@ -281,9 +281,17 @@ function App() {
                 >
                   <div class='card'>
                     <div className="flex flex-1 items-center justify-between">
+                      <div class= 'image'>
+                        <img
+                          src={n.imageSrc}
+                          className="w-full h-full object-cover rounded-md my-4"
+                          alt=""
+                        />
+                      </div>
                       <p  className="text-lg text-gray-300">
                           <p className="text-lg text-white text-textBase font-medium uppercase">
-                          {n.name.length > 25 ? `${n.name.slice(0, 25)}...` : n.name}
+                          {/* slicing sentences longer than 30 characters so that the following becomes periods */}
+                          {n.name.length > 30 ? `${n.name.slice(0, 30)}...` : n.name}
                           </p>
                         <span className="text-md text-gray-250">
                           {n.duration}
@@ -295,13 +303,10 @@ function App() {
                           {n.techs}
                         </span>
                       </p>
+                      
                     </div>
                   </div>
-                  {/* <img
-                    src={n.imageSrc}
-                    className="w-full h-full object-cover rounded-md my-4"
-                    alt=""
-                  /> */}
+                  
                 </motion.div>
               ))}
           </section>
