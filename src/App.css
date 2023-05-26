@@ -25,7 +25,7 @@
     padding: 40px
 }
 .container .card div.image{
-    padding: 20px
+    padding: 20px;
 }
 .container:hover .card {
     filter: blur(3px);

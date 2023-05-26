@@ -311,10 +311,6 @@ function App() {
               ))}
           </section>
           
-          <section>
-            <div class="invinsible" ></div>
-          </section>
-
           <section
             id="contacts"
             className="flex flex-col items-center justify-evenly w-full my-24"
