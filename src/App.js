@@ -136,12 +136,9 @@ function App() {
             )}
           </div>
         </nav>
-        
-        
-        <div className="relative" id="home">
-         
-        </div> 
-        
+
+        <div className="relative" id="home"></div>
+
         <main className="w-[90%] mt-4=">
           <section className="w-full my-24">
             <div className="flex flex-col text-center w-full h-420 items-center justify-center md:flex-row md:space-x-12">
@@ -152,88 +149,126 @@ function App() {
                   className="w-full h-full absolute -right-4 top-0 object-cover rounded-lg drop-shadow-2xl"
                 />
               </div>
-              <div className = 'md:mt-10'>
-                <h1  className='font-bold text-white text-4xl'>
-                    Hi, I'm JJ! 
-                </h1>
-                <p className='font-bold text-white text-1xl md:w-64 '>
-                    I'm a <span className = 'bg-gradient-to-r from-gray-500 to-white-500 bg-clip-text	text-transparent'>
+              <div className="md:mt-10">
+                <h1 className="font-bold text-white text-4xl">Hi, I'm JJ!</h1>
+                <p className="font-bold text-white text-1xl md:w-64 ">
+                  I'm a{" "}
+                  <span className="bg-gradient-to-r from-gray-500 to-white-500 bg-clip-text	text-transparent">
                     .....
-                    </span>
+                  </span>
                 </p>
               </div>
             </div>
-            
           </section>
-          <section >
-            <div class="meter" > </div>
+          <section>
+            <div class="meter"> </div>
           </section>
           <section id="about">
-            <div class="invinsible1" ></div>
+            <div class="invinsible1"></div>
           </section>
           <section>
             <div className="my-12 pb-12 md:pt-16 md:pb-48">
-                <h1 className="text-center font-bold text-4xl text-white ">
-                  About Me
-                  <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
-                </h1>
+              <h1 className="text-center font-bold text-4xl text-white ">
+                About Me
+                <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+              </h1>
 
-                <div className="text-white flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
-                  <div className="md:w-1/2 ">
-                    <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-                      Get to know me!
-                    </h1>
-                    <p>
-                      Hi, my name is JJ and I am a{" "}
-                      <span className="font-bold  bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text	text-transparent">{"highly ambitious"}</span>,
-                      <span className="font-bold  bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text	text-transparent">{" self-motivated"}</span>, and
-                      <span className="font-bold  bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text	text-transparent">{" driven"}</span> student studying Electrical and Computer Engineering at University of Texas at Austin.
-                    </p>
-                    
-                    <br />
-                    <p>
-                      I have a wide range of hobbies and passions that keep me busy.
-                      From reading, playing sports, traveling, to bouldering,
-                      I am always seeking new experiences and love to keep myself
-                      engaged and learning new things.
-                    </p>
-                    <br />
-                    <p>
-                      I believe that you should{" "}
-                      <span className="font-bold  bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text	text-transparent">
-                        never stop growing
-                      </span>{" "}
-                      and that&#39;s what I strive to do, I have a passion for
-                      technology and a desire to always push the limits of what is
-                      possible. I am excited to see where my career takes me and am
-                      always open to new opportunities. 
-                    </p>
-                    {/* <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" /> */}
-                  </div>
-                  <div className="text-center md:w-1/2 md:text-left">
-                    {/* <h1 className="text-2xl font-bold mb-6 ">My Skills</h1> */}
-                    <div className=" justify-center z-10 md:justify-start">
-                          <Progressbar bgcolor="#99ccff" progress='80'  height={30} skill ='Java' />
-                          <Progressbar bgcolor="#99ccff" progress='60'  height={30} skill ='C/C++' />
-                          <Progressbar bgcolor="#99ccff" progress='85'  height={30} skill ='Assembly' />
-                          <Progressbar bgcolor="#99ccff" progress='50'  height={30} skill ='Java Script'/>
-                          <Progressbar bgcolor="#99ccff" progress='55'  height={30} skill ='CSS'/>
-                          <Progressbar bgcolor="#99ccff" progress='70'  height={30} skill ='HTML'/>
-                    </div>
+              <div className="text-white flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
+                <div className="md:w-1/2 ">
+                  <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
+                    Get to know me!
+                  </h1>
+                  <p>
+                    Hi, my name is JJ and I am a{" "}
+                    <span className="font-bold  bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text	text-transparent">
+                      {"highly ambitious"}
+                    </span>
+                    ,
+                    <span className="font-bold  bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text	text-transparent">
+                      {" self-motivated"}
+                    </span>
+                    , and
+                    <span className="font-bold  bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text	text-transparent">
+                      {" driven"}
+                    </span>{" "}
+                    student studying Electrical and Computer Engineering at
+                    University of Texas at Austin.
+                  </p>
+
+                  <br />
+                  <p>
+                    I have a wide range of hobbies and passions that keep me
+                    busy. From reading, playing sports, traveling, to
+                    bouldering, I am always seeking new experiences and love to
+                    keep myself engaged and learning new things.
+                  </p>
+                  <br />
+                  <p>
+                    I believe that you should{" "}
+                    <span className="font-bold  bg-gradient-to-r from-cyan-500 to-teal-500 bg-clip-text	text-transparent">
+                      never stop growing
+                    </span>{" "}
+                    and that&#39;s what I strive to do, I have a passion for
+                    technology and a desire to always push the limits of what is
+                    possible. I am excited to see where my career takes me and
+                    am always open to new opportunities.
+                  </p>
+                  {/* <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" /> */}
+                </div>
+                <div className="text-center md:w-1/2 md:text-left">
+                  {/* <h1 className="text-2xl font-bold mb-6 ">My Skills</h1> */}
+                  <div className=" justify-center z-10 md:justify-start">
+                    <Progressbar
+                      bgcolor="#99ccff"
+                      progress="80"
+                      height={30}
+                      skill="Java"
+                    />
+                    <Progressbar
+                      bgcolor="#99ccff"
+                      progress="60"
+                      height={30}
+                      skill="C/C++"
+                    />
+                    <Progressbar
+                      bgcolor="#99ccff"
+                      progress="85"
+                      height={30}
+                      skill="Assembly"
+                    />
+                    <Progressbar
+                      bgcolor="#99ccff"
+                      progress="50"
+                      height={30}
+                      skill="Java Script"
+                    />
+                    <Progressbar
+                      bgcolor="#99ccff"
+                      progress="55"
+                      height={30}
+                      skill="CSS"
+                    />
+                    <Progressbar
+                      bgcolor="#99ccff"
+                      progress="70"
+                      height={30}
+                      skill="HTML"
+                    />
                   </div>
                 </div>
               </div>
+            </div>
           </section>
 
           <section id="experience">
-            <div class="invinsible" ></div>
+            <div class="invinsible"></div>
           </section>
 
-          <section >
-            <div class="meter" > </div>
+          <section>
+            <div class="meter"> </div>
           </section>
-          
-          <section  className="w-full flex items-center justify-center" >
+
+          <section className="w-full flex items-center justify-center">
             <VerticalTimeline>
               {Experience &&
                 Experience.map((n) => (
@@ -241,7 +276,7 @@ function App() {
                     key={n.id}
                     className="vertical-timeline-element--work"
                     contentStyle={{
-                      background: "rgb(21, 24, 31)",
+                      background: "rgb(20, 50, 100)",
                       color: "#888",
                     }}
                     contentArrowStyle={{
@@ -251,66 +286,65 @@ function App() {
                     iconStyle={{ background: "rgb(21, 24, 31)", color: "#888" }}
                     icon={n.iconsSrc}
                   >
-                    <h3 className="vertical-timeline-element-title text-lg text-white text-textBase font-medium uppercase">
+                    <h3 className="vertical-timeline-element-title text-lg text-white text-textBase font-medium ">
                       {n.title}
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
                       {n.location}
                     </h4>
-                    <p>{n.description}</p>
+                    <p className="text-gray">{n.description}</p>
+                    <p>{n.description2}</p>
                   </VerticalTimelineElement>
                 ))}
             </VerticalTimeline>
           </section>
-          
 
-          <section id = 'service'>
-                <div class="meter"></div>
-                <div class="invinsible"  ></div>
-                <div class="invinsible"  ></div>
-          </section >
-          
+          <section id="service">
+            <div class="meter"></div>
+            <div class="invinsible"></div>
+            <div class="invinsible"></div>
+            <div class="invinsible"></div>
+          </section>
 
-          <section
-            class='container'
-          >
-            {Projects && Projects.map((n, i) => (
+          <section class="container">
+            {Projects &&
+              Projects.map((n, i) => (
                 <motion.div
                   key={n.id}
-                  className="border border-white rounded-md p-1 width-full flex items-center justify-between"
+                  className="border border-white rounded-md p-6 width-full flex items-center justify-between"
                 >
-                  <div class='card'>
-                    <div className="flex flex-1 items-center justify-between">
-                      <div class= 'image'>
+                  <div class="card">
+                    <div className="flex items-center justify-between">
+                      <div class="image">
                         <img
                           src={n.imageSrc}
-                          className="w-full h-full object-cover rounded-md my-4"
+                          className="w-full h-full object-cover rounded-md my-0"
                           alt=""
                         />
                       </div>
-                      <p  className="text-lg text-gray-300">
-                          <p className="text-lg text-white text-textBase font-medium uppercase">
+                      <p className="text-lg ">
+                        <p className="text-white text-textBase font-medium ">
                           {/* slicing sentences longer than 30 characters so that the following becomes periods */}
-                          {n.name.length > 30 ? `${n.name.slice(0, 30)}...` : n.name}
-                          </p>
-                        <span className="text-md text-gray-250">
+                          {n.name.length > 30
+                            ? `${n.name.slice(0, 30)}...`
+                            : n.name}
+                        </p>
+                        <span className="text-md text-gray-250 padding">
                           {n.duration}
                         </span>
-                        <span className="block text-lg text-gray-100">
+                        <span className="block text-lg text-gray-250">
                           {n.position}
                         </span>
                         <span className="block text-lg text-gray-250">
                           {n.techs}
                         </span>
                       </p>
-                      
                     </div>
                   </div>
-                  
                 </motion.div>
               ))}
           </section>
-          
+
           <section
             id="contacts"
             className="flex flex-col items-center justify-evenly w-full my-24"
