@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.43bd0e18.css",
-    "main.js": "/website/static/js/main.5d847d23.js",
+    "main.css": "/website/static/css/main.b1c2adbe.css",
+    "main.js": "/website/static/js/main.05768de7.js",
     "static/media/jinjun2.PNG": "/website/static/media/jinjun2.914f1ceecb2020f979ea.PNG",
     "static/media/FisforFluency.png": "/website/static/media/FisforFluency.208728fa671bd5e8123a.png",
     "static/media/books.png": "/website/static/media/books.cd0423e88452e86c2d87.png",
     "static/media/AustinKoreanSchool.png": "/website/static/media/AustinKoreanSchool.ca37330cc404a06953eb.png",
     "index.html": "/website/index.html",
-    "main.43bd0e18.css.map": "/website/static/css/main.43bd0e18.css.map",
-    "main.5d847d23.js.map": "/website/static/js/main.5d847d23.js.map"
+    "main.b1c2adbe.css.map": "/website/static/css/main.b1c2adbe.css.map",
+    "main.05768de7.js.map": "/website/static/js/main.05768de7.js.map"
   },
   "entrypoints": [
-    "static/css/main.43bd0e18.css",
-    "static/js/main.5d847d23.js"
+    "static/css/main.b1c2adbe.css",
+    "static/js/main.05768de7.js"
   ]
 }
