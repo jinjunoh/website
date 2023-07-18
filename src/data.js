@@ -86,7 +86,7 @@ export const Experience = [
     id: 8,
     date: "March 2023 - April 2023",
     iconsSrc: <IoCodeWorking />,
-    title: "AWS Serverless Web Application [AWS Hands on]",
+    title: "AWS Serverless Web Application [AWS]",
     location: "Austin, Texas",
     description:
       "Saas and cloud services caught my attention. I wanted to experience and deliver a project that utilizes the full potential of AWS services.",
@@ -100,9 +100,8 @@ export const Experience = [
     title: "AWS Certified Cloud Practitioner",
     location: "Online",
     description:
-      "",
-    description2:
-      "",
+      "After gaining a comprehensive understanding of key AWS services including computing, storage, databases, and networking, I am looking forward to leveraging the power of AWS to design, deploy, and manage scalable and reliable cloud architectures for businesses.",
+    description2: "",
   },
   {
     id: 9,
@@ -111,9 +110,11 @@ export const Experience = [
     title: "SNS Task Manager [Team Project]",
     location: "Seoul, South Korea",
     description:
-      "With the basics in Cloud services and React established, I sought to experience MySQL and Express.js. Inspired by BeReal, a real time image sharing app, I decided to work on a project which can share a user's todo list and integrate image sharing capabilities with his/her friends. (Just Like BeReal!)",
+      "Problem: Social Media is one of the main sources of social distress within teens. However, apps like BeReal aspire to bring forth positive and proactive abilities of social media.",
     description2:
-      "The first step was to familier myself with relational databases and React-Native. I created the schema on dbdiagram.io and integrated on a local MySQL server. Then, I worked on REST APIs which performs the necessary requests sent by the front end server....",
+      "With the basics in Cloud services and React established, I sought to experience MySQL and Express.js. Inspired by BeReal, a real time image sharing app, I decided to work on a project which can share a user's todo list and integrate image sharing capabilities with his/her friends. (Just Like BeReal)",
+    description3:
+      "The first step was to familier myself with express and React-Native. I created the schema on dbdiagram.io and integrated on a local MySQL server through dbmate. Then, I worked on developing REST APIs with MVC (Model-view-controller) design pattern to promote decoupling and enable unit tests of each component. I deployed the database on AWS RDS, Backend Server on AWS EC2, and Frontend Server on AWS S3 Bucket.",
   },
 ];
 

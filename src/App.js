@@ -1,7 +1,9 @@
 import Vetri from "./images/jinjun2.PNG";
+
 import { Spline } from "@splinetool/react-spline";
 import './App.css'; 
-import Progressbar from './Progress_bar';
+import Progressbar from './components/progressBar';
+import ReadMore from './components/readMore'
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -238,7 +240,7 @@ function App() {
                     />
                     <Progressbar
                       bgcolor="#99ccff"
-                      progress="50"
+                      progress="80"
                       height={30}
                       skill="Java Script"
                     />
@@ -292,8 +294,11 @@ function App() {
                     <h4 className="vertical-timeline-element-subtitle">
                       {n.location}
                     </h4>
-                    <p className="text-gray">{n.description}</p>
-                    <p>{n.description2}</p>
+                    <h5>
+                      <p className="text-gray">{n.description}</p>
+                      <p>{n.description2}</p>
+                      <p>{n.description3}</p>
+                    </h5>
                   </VerticalTimelineElement>
                 ))}
             </VerticalTimeline>
